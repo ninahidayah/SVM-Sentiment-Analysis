@@ -11,8 +11,8 @@ Data yang digunakan adalah data review aplikasi yang diambil dari scraping data 
 3. Preprocessing 
 Tahapan untuk menghilangkan permasalahan yang dapat mengganggu hasil dari proses data karena data dari Google Play Store belum bersih. Kita harus membersihkan dan memilih fitur sebelum masuk ke analisis sentiment.
 
-  1	Data cleansing 
-    Proses pembersihan data yang meliputi:
+          1	Data cleansing 
+            Proses pembersihan data yang meliputi:
   - Remove Lowercase
   - Remove Punctuation
   - Remove Whitespace
