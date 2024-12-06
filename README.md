@@ -11,25 +11,25 @@ Data yang digunakan adalah data review aplikasi yang diambil dari scraping data 
 3. Preprocessing 
 Tahapan untuk menghilangkan permasalahan yang dapat mengganggu hasil dari proses data karena data dari Google Play Store belum bersih. Kita harus membersihkan dan memilih fitur sebelum masuk ke analisis sentiment.
 
-•	Data cleansing 
-Proses pembersihan data yang meliputi:
-- Remove Lowercase
-- Remove Punctuation
-- Remove Whitespace
-- Remove Mention (@username)
-- Remove hastag (#tag)
--  Remove URL or link
-- Remove ASCII and Unicode
--  Remove newline
+  1	Data cleansing 
+    Proses pembersihan data yang meliputi:
+  - Remove Lowercase
+  - Remove Punctuation
+  - Remove Whitespace
+  - Remove Mention (@username)
+  - Remove hastag (#tag)
+  -  Remove URL or link
+  - Remove ASCII and Unicode
+  -  Remove newline
   
-•	Normalisasi 
+  2	Normalisasi 
 
-•	Filtering
-Disini dilakukan StopWords yaitu penghapusan kata yang tidak penting digunakan dan tidak relevan dalam analisis teks.
+  3	Filtering
+    Disini dilakukan StopWords yaitu penghapusan kata yang tidak penting digunakan dan tidak relevan dalam analisis teks.
 
-•	Tokenez
+  4	Tokenez
 
-•	Stemming
+  5	Stemming
 
 3. TF-IDF
 Mengukur seberapa sering suatu kata muncul. Semakin sering kata muncul, semakin tinggi nilai TF-nya. Ini digunakan untuk mengubah teks menjadi representasi numerik (vektor) yang dapat digunakan oleh algoritma pembelajaran mesin, seperti SVM.
