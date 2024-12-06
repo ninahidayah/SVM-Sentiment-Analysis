@@ -5,7 +5,7 @@ Pada repository ini saya membuat Sentiment Analysis dengan menggunakan Model SVM
 Sentiment Analysis adalah Teknik (Natural Language Processing, NLP) yang digunakan untuk mengidentifikasi dan mengkategorikan emosi atau opini dalam teks. Teknik ini sering digunakan untuk memahami opini publik terhadap suatu produk, layanan, atau topik tertentu.
 
 
-          #Apa saja yang perlu dipersiapkan?
+          - Apa saja yang perlu dipersiapkan? -
           
           1. Data 
              yang digunakan adalah data review aplikasi yang diambil dari scraping data di google play store. 
@@ -42,7 +42,12 @@ Sentiment Analysis adalah Teknik (Natural Language Processing, NLP) yang digunak
 
           5. Implementasi Model SVM
              SVM efektif untuk data dengan dimensi tinggi(seperti gambar atau teks) dan dapat menangani data non-linear dengan menggunakan kernel.
+
+# Eksploratory Data Analysis
+
 ![Proporsi Sentimen Pelanggan](https://github.com/user-attachments/assets/987b4c70-a73f-4dcc-9933-fab10ee884b4)
+
+# Model SVM 
 
 ![Classification Report](https://github.com/user-attachments/assets/8819264b-dccd-48c7-abc8-ac8fce93594f)
 
